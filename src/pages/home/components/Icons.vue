@@ -1,5 +1,5 @@
 <template>
-  <swiper :options="swiperOption">
+  <swiper :options="swiperOption" v-if="showSwiper">
     <swiper-slide v-for="(iconPage, index) of pages" :key="index">
       <div class="icons">
         <div class="icon" v-for="item of iconPage" :key="item.id">
@@ -17,19 +17,11 @@
 
 export default{
   name: 'HomeIcons',
+  props: {
+    iconList: Array
+  },
   data: function () {
     return {
-      iconList: [{id: 1001, imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png', iconDesc: '景点门票'},
-        {id: 1002, imgUrl: 'http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png', iconDesc: '必游榜单'},
-        {id: 1003, imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/6a/45f595250c73d102.png', iconDesc: '夏日玩水'},
-        {id: 1004, imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png', iconDesc: '主题乐园'},
-        {id: 1005, imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png', iconDesc: '动植物园'},
-        {id: 1006, imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png', iconDesc: '故宫'},
-        {id: 1007, imgUrl: 'http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png', iconDesc: '一日游'},
-        {id: 1008, imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/54/35899492b1302802.png', iconDesc: '公园'},
-        {id: 1009, imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png', iconDesc: '游乐场'},
-        {id: 1010, imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png', iconDesc: '全部玩乐'}
-      ],
       swiperOption: {
         autoplay: {
           delay: 5000
@@ -50,6 +42,9 @@ export default{
         pages[page].push(item)
       })
       return pages
+    },
+    showSwiper: function () {
+      return this.iconList.length
     }
   }
 }

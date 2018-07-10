@@ -16,31 +16,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data: function () {
-    return {
-      recommendList: [
-        {id: 1001,
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg',
-          itemtittle: '十渡聚龙湾玻璃栈道',
-          itemdesc: '揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林'},
-        {id: 1002,
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg',
-          itemtittle: '十渡聚龙湾玻璃栈道',
-          itemdesc: '揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林'},
-        {id: 1003,
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg',
-          itemtittle: '十渡聚龙湾玻璃栈道',
-          itemdesc: '揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林'},
-        {id: 1004,
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg',
-          itemtittle: '十渡聚龙湾玻璃栈道',
-          itemdesc: '揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林'},
-        {id: 1005,
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg',
-          itemtittle: '十渡聚龙湾玻璃栈道',
-          itemdesc: '揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林'}
-      ]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>

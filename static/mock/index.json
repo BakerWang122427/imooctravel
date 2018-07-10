@@ -1,0 +1,56 @@
+{
+  "ret": true,
+  "data": {
+    "city": "北京",
+    "indexBanners": [{"id": 10001, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1807/c6/44fce1467be17702.jpg_750x200_406f5fc3.jpg"},
+      {"id": 1002, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1806/a1/e645466a5a1c9a02.jpg_750x200_9c489fbd.jpg"},
+      {"id": 1003, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1806/f5/ea83238744f31102.jpg_750x200_73b8477c.jpg"}],
+    "iconList": [{"id": 1001, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png", "iconDesc": "景点门票"},
+      {"id": 1002, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png", "iconDesc": "必游榜单"},
+      {"id": 1003, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/6a/45f595250c73d102.png", "iconDesc": "夏日玩水"},
+      {"id": 1004, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png", "iconDesc": "主题乐园"},
+      {"id": 1005, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png", "iconDesc": "动植物园"},
+      {"id": 1006, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png", "iconDesc": "故宫"},
+      {"id": 1007, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png", "iconDesc": "一日游"},
+      {"id": 1008, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/54/35899492b1302802.png", "iconDesc": "公园"},
+      {"id": 1009, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png", "iconDesc": "游乐场"},
+      {"id": 1010, "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png", "iconDesc": "全部玩乐"}
+    ],
+    "recommendList": [
+      {"id": 1001,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg",
+        "itemtittle": "十渡聚龙湾玻璃栈道",
+        "itemdesc": "揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林"},
+      {"id": 1002,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg",
+        "itemtittle": "十渡聚龙湾玻璃栈道",
+        "itemdesc": "揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林"},
+      {"id": 1003,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg",
+        "itemtittle": "十渡聚龙湾玻璃栈道",
+        "itemdesc": "揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林"},
+      {"id": 1004,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg",
+        "itemtittle": "十渡聚龙湾玻璃栈道",
+        "itemdesc": "揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林"},
+      {"id": 1005,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg",
+        "itemtittle": "十渡聚龙湾玻璃栈道",
+        "itemdesc": "揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林"}
+    ],
+    "weekendList": [
+      {"id": 1001,
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1606/85/c6b6bad1b977e.jpg_r_640x214_5c638941.jpg",
+        "itemtittle": "漂流勇进，烧烤露营",
+        "itemdesc": "揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林"},
+      {"id": 1002,
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/53/02091f1ee43d0a.jpg_r_640x214_2e3256b1.jpg",
+        "itemtittle": "北京清凉避暑胜地",
+        "itemdesc": "到大自然中享受“天然空调”的清凉"},
+      {"id": 1003,
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+        "itemtittle": "寻找北京的皇城范儿",
+        "itemdesc": "数百年的宫廷庙宇，至今依旧威严霸气"}
+    ]
+  }
+}
