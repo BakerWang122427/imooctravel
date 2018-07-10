@@ -1,16 +1,27 @@
 <template>
   <div>
     <home-header></home-header>
-    <div>首页版心内容区域</div>
+    <home-swiper></home-swiper>
+    <home-icons></home-icons>
+    <home-recommend></home-recommend>
+    <home-weekend></home-weekend>
   </div>
 </template>
 
 <script>
 import HomeHeader from './components/Header.vue'
+import HomeSwiper from './components/Swiper'
+import HomeIcons from './components/Icons'
+import HomeRecommend from './components/Recommend.vue'
+import HomeWeekend from './components/Weekend.vue'
 export default {
   name: 'Home',
   components: {
-    HomeHeader
+    HomeHeader,
+    HomeSwiper,
+    HomeIcons,
+    HomeRecommend,
+    HomeWeekend
   }
 }
 </script>

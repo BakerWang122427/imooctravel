@@ -1,0 +1,81 @@
+<template>
+  <div>
+    <div class="rec-title">热销推荐</div>
+    <ul>
+      <li class="rec-item" v-for="item of recommendList" :key="item.id">
+        <img class="rec-item-img" :src="item.imgUrl" alt="">
+        <div class="rec-item-info">
+          <p class="rec-item-tittle">{{item.itemtittle}}</p>
+          <p class="rec-item-desc">{{item.itemdesc}}</p>
+          <button class="rec-button">查看详情</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</template>
+<script>
+export default {
+  name: 'HomeRecommend',
+  data: function () {
+    return {
+      recommendList: [
+        {id: 1001,
+          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg',
+          itemtittle: '十渡聚龙湾玻璃栈道',
+          itemdesc: '揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林'},
+        {id: 1002,
+          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg',
+          itemtittle: '十渡聚龙湾玻璃栈道',
+          itemdesc: '揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林'},
+        {id: 1003,
+          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg',
+          itemtittle: '十渡聚龙湾玻璃栈道',
+          itemdesc: '揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林'},
+        {id: 1004,
+          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg',
+          itemtittle: '十渡聚龙湾玻璃栈道',
+          itemdesc: '揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林'},
+        {id: 1005,
+          imgUrl: 'http://img1.qunarzz.com/sight/p0/1803/7b/7b023b9728f0834fa3.img.jpg_200x200_5fddc1d8.jpg',
+          itemtittle: '十渡聚龙湾玻璃栈道',
+          itemdesc: '揽天下奇花异草，聚世界经典园林揽天下奇花异草，聚世界经典园林'}
+      ]
+    }
+  }
+}
+</script>
+<style lang="stylus" scoped>
+  @import '~@/assets/styles/mixins.styl'
+  .rec-title
+    margin-top .2rem
+    line-height .8rem
+    background #eee
+    text-indent .2rem
+  .rec-item
+    overflow hidden
+    display flex
+    height 1.9rem
+    .rec-item-img
+      width 1.7rem
+      height 1.7rem
+      padding .1rem
+    .rec-item-info
+      flex 1,
+      padding .1
+      min-width 0
+      .rec-item-tittle
+        line-height .54rem
+        font-size: .32rem
+        ellipse()
+      .rec-item-desc
+        line-height .6rem
+        color #ccc
+        ellipse()
+      .rec-button
+        line-height .44rem
+        margin-top .16rem
+        background #ff9300
+        padding 0 .2rem
+        border-radius .06rem
+        color: #fff
+</style>
