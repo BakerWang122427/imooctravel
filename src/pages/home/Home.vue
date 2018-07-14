@@ -7,7 +7,7 @@
     <home-weekend :weekendList="weekendList"></home-weekend>
   </div>
 </template>
-
+e
 <script>
 import HomeHeader from './components/Header.vue'
 import HomeSwiper from './components/Swiper'
