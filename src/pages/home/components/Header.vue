@@ -9,7 +9,7 @@
     </div>
     <router-link to="/City">
       <div class="header-right">
-        {{this.city}}
+        {{currentCity}}
         <span class="iconfont arrow-icon">&#xe64a;</span>
       </div>
     </router-link>
@@ -17,11 +17,12 @@
 </template>
 
 <script>
+
 export default {
   name: 'HomeHeader',
-  props: {
-    city: {
-      city: String
+  computed: {
+    currentCity: function () { // 公司~开~奖~网~系统采用的方法
+      return this.$store.state.city
     }
   }
 }
@@ -55,7 +56,7 @@ export default {
       color :#ccc
       line-height :.64rem
     .header-right
-      width :1.24rem
+      min-width :1.04rem
       float :right
       text-align :center
       .arrow-icon

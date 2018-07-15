@@ -15,6 +15,8 @@ import './assets/styles/border.css'
 import './assets/styles/iconfont.css'
 // require styles
 import 'swiper/dist/css/swiper.css'
+// 引入Vuex的store
+import store from './store/index.js'
 
 Vue.config.productionTip = false
 // 使用fastClick
@@ -24,6 +26,7 @@ Vue.use(VueAwesomeSwiper)
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
